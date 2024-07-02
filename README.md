@@ -2,6 +2,15 @@
 
 this is a project that allow through a use of an NFC tag on each of your parts to retrieve basic data from it
 
+the python code can be complied with mypy and i would suggest this, just run this to complie 
+```sh
+mypyc main.py
+```
+and this to run the application
+```sh
+python -c "import main; main()"
+```
+
 ## what you will need
 
 - esp32
